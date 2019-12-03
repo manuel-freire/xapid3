@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Hoja de estilos -->
+  <link rel="stylesheet" href="estilos.css">
+
+  <!-- Título dela ventana -->
+  <title>Demo: xAPI & d3</title>
+</head>
+<body>
+
+
+  <!-- JavaScript -->
+  <script src="jquery-3.3.1.js"></script>
+  <script src="d3-5.14.2.js"></script>
+
+  <!-- datos a mostrar -->
+  <script src="modelo.js"></script>
+  <!-- fichero que define la visualizacion -->
+  <script src="vista.js"></script>
+  <script>
+  
+    let bar = new BarChart(data["chart"]);
+    let scatter = new Scatter(data["circle"]);
+    
+  </script>
+  </body>
+</html>
