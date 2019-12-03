@@ -1,5 +1,5 @@
 
-// ejemplo 1: creo un <div class="chart"></div> ...
+// ejemplo de gráfico de barras
 
 class BarChart {
     constructor(data) {
@@ -34,13 +34,7 @@ class BarChart {
 }
 
 
-
-// y pinto un gráfico de barras a partir de data
-
-
-
-
-// ejemplo con círculos
+// ejemplo de dispersión
 
 class Scatter {
     constructor(data) {
