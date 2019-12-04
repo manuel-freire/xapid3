@@ -1,0 +1,2611 @@
+[
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW56kl7qSUwfhkBhptwP",
+        "_score" : 1.0,
+        "_source" : {
+          "out" : {
+            "name" : "",
+            "gameplayId" : "",
+            "type_hashCode" : 0,
+            "score" : 0.01,
+            "response" : "",
+            "type" : "",
+            "event_hashcode" : 0,
+            "target" : "",
+            "versionId" : "",
+            "success" : false,
+            "gameplayId_hashCode" : 0,
+            "event" : "",
+            "timestamp" : "2000-01-19T11:05:27.772Z",
+            "target_hashCode" : 0,
+            "stored" : "2000-01-19T11:05:27.772Z",
+            "progress" : 0.01,
+            "time" : 0.01,
+            "ext" : {
+              "progress" : 0.01,
+              "time" : 0.01,
+              "location" : {
+                "lat" : 0.01,
+                "lon" : 0.01
+              },
+              "towers" : 0,
+              "money" : 0,
+              "lives" : 0,
+              "writing_time" : 0.01
+            }
+          },
+          "activityName" : "",
+          "activityId" : "",
+          "classId" : ""
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OqXU4SUwfhkBhpuAl",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "qwerty"
+              },
+              "name" : "qwerty"
+            },
+            "result" : {
+              "extensions" : {
+                "money" : 7000.0,
+                "lives" : 0.0,
+                "towers" : 0.0
+              }
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/initialized"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/level",
+                "extensions" : {
+                  "gameplayId" : "5dd6b28c5187cd0095b07ee2",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:51:40.205Z",
+                  "currentSessionStarted" : "2019-11-21T15:51:40.205Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/level1"
+            },
+            "timestamp" : "2019-11-21T15:54:20.660Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 7000.0,
+              "lives" : 0.0,
+              "towers" : 0.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:51:40.205Z",
+            "session" : 1.0,
+            "type" : "level",
+            "target" : "level1",
+            "gameplayId" : "5dd6b28c5187cd0095b07ee2",
+            "type_hashCode" : 102865796,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "d81f555a-7208-4653-8c2e-6eee5f8be993",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : -1106127571,
+            "stored" : "2019-11-21T15:51:40.592Z",
+            "name" : "qwerty",
+            "event_hashCode" : 1234020052,
+            "event" : "initialized",
+            "timestamp" : "2019-11-21T15:54:20.660Z",
+            "firstSessionStarted" : "2019-11-21T15:51:40.205Z"
+          },
+          "playerId" : "5dd6ad745187cd0095b07ed1",
+          "gameplayId" : "5dd6b28c5187cd0095b07ee2"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OqosxSUwfhkBhpuBI",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "carlos"
+              },
+              "name" : "carlos"
+            },
+            "result" : {
+              "extensions" : {
+                "money" : 7000.0,
+                "lives" : 0.0,
+                "towers" : 0.0
+              }
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/initialized"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/stage",
+                "extensions" : {
+                  "gameplayId" : "5dd6b2d35187cd0095b07ee4",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:52:51.234Z",
+                  "currentSessionStarted" : "2019-11-21T15:52:51.234Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/wave"
+            },
+            "timestamp" : "2019-11-21T15:55:31.918Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 7000.0,
+              "lives" : 0.0,
+              "towers" : 0.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:52:51.234Z",
+            "session" : 1.0,
+            "type" : "stage",
+            "target" : "wave",
+            "gameplayId" : "5dd6b2d35187cd0095b07ee4",
+            "type_hashCode" : 109757182,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "e07b3f26-d76d-44af-9c58-18635986cdac",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 3642105,
+            "stored" : "2019-11-21T15:52:51.753Z",
+            "name" : "carlos",
+            "event_hashCode" : 1234020052,
+            "event" : "initialized",
+            "timestamp" : "2019-11-21T15:55:31.918Z",
+            "firstSessionStarted" : "2019-11-21T15:52:51.234Z"
+          },
+          "playerId" : "5dd6ad435187cd0095b07ecb",
+          "gameplayId" : "5dd6b2d35187cd0095b07ee4"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OqwpsSUwfhkBhpuBg",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "aitor"
+              },
+              "name" : "aitor"
+            },
+            "result" : {
+              "extensions" : {
+                "money" : 7000.0,
+                "lives" : 0.0,
+                "towers" : 0.0
+              }
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/initialized"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/level",
+                "extensions" : {
+                  "gameplayId" : "5dd6b2f45187cd0095b07ee9",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:53:24.125Z",
+                  "currentSessionStarted" : "2019-11-21T15:53:24.125Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/level1"
+            },
+            "timestamp" : "2019-11-21T15:56:04.577Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 7000.0,
+              "lives" : 0.0,
+              "towers" : 0.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:53:24.125Z",
+            "session" : 1.0,
+            "type" : "level",
+            "target" : "level1",
+            "gameplayId" : "5dd6b2f45187cd0095b07ee9",
+            "type_hashCode" : 102865796,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "897c1704-4ecb-4f3f-9663-ec1a96a73b07",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : -1106127571,
+            "stored" : "2019-11-21T15:53:24.327Z",
+            "name" : "aitor",
+            "event_hashCode" : 1234020052,
+            "event" : "initialized",
+            "timestamp" : "2019-11-21T15:56:04.577Z",
+            "firstSessionStarted" : "2019-11-21T15:53:24.125Z"
+          },
+          "playerId" : "5dd6abe15187cd0095b07ebf",
+          "gameplayId" : "5dd6b2f45187cd0095b07ee9"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6Op84XSUwfhkBhpt_k",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "paloma"
+              },
+              "name" : "paloma"
+            },
+            "result" : {
+              "extensions" : {
+                "money" : 7000.0,
+                "lives" : 0.0,
+                "towers" : 0.0
+              }
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/initialized"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/stage",
+                "extensions" : {
+                  "gameplayId" : "5dd6b21f5187cd0095b07edf",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:49:51.923Z",
+                  "currentSessionStarted" : "2019-11-21T15:49:51.923Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/wave"
+            },
+            "timestamp" : "2019-11-21T15:52:32.447Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 7000.0,
+              "lives" : 0.0,
+              "towers" : 0.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:49:51.923Z",
+            "session" : 1.0,
+            "type" : "stage",
+            "target" : "wave",
+            "gameplayId" : "5dd6b21f5187cd0095b07edf",
+            "type_hashCode" : 109757182,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "8eb725d9-1ed0-4b46-8bf4-6b1175334f4a",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 3642105,
+            "stored" : "2019-11-21T15:49:52.258Z",
+            "name" : "paloma",
+            "event_hashCode" : 1234020052,
+            "event" : "initialized",
+            "timestamp" : "2019-11-21T15:52:32.447Z",
+            "firstSessionStarted" : "2019-11-21T15:49:51.923Z"
+          },
+          "playerId" : "5dd6acba5187cd0095b07ec5",
+          "gameplayId" : "5dd6b21f5187cd0095b07edf"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OqHa9SUwfhkBhpuAL",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "paloma"
+              },
+              "name" : "paloma"
+            },
+            "result" : {
+              "score" : {
+                "raw" : 1.0
+              },
+              "extensions" : {
+                "writing_time" : 2.0
+              },
+              "success" : false,
+              "response" : "true"
+            },
+            "verb" : {
+              "id" : "https://w3id.org/xapi/adb/verbs/selected"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "http://adlnet.gov/expapi/activities/question",
+                "extensions" : {
+                  "gameplayId" : "5dd6b21f5187cd0095b07edf",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:49:51.923Z",
+                  "currentSessionStarted" : "2019-11-21T15:49:51.923Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/pre"
+            },
+            "timestamp" : "2019-11-21T15:53:15.768Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "writing_time" : 2.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:49:51.923Z",
+            "session" : 1.0,
+            "type" : "question",
+            "target" : "pre",
+            "gameplayId" : "5dd6b21f5187cd0095b07edf",
+            "type_hashCode" : -1165870106,
+            "score" : 1.0,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "f742593d-026e-4186-a460-17c584bc51fb",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 111267,
+            "success" : false,
+            "response" : "true",
+            "stored" : "2019-11-21T15:50:35.445Z",
+            "name" : "paloma",
+            "event_hashCode" : 1191572123,
+            "event" : "selected",
+            "timestamp" : "2019-11-21T15:53:15.768Z",
+            "firstSessionStarted" : "2019-11-21T15:49:51.923Z"
+          },
+          "playerId" : "5dd6acba5187cd0095b07ec5",
+          "gameplayId" : "5dd6b21f5187cd0095b07edf"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OqosxSUwfhkBhpuBH",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "carlos"
+              },
+              "name" : "carlos"
+            },
+            "result" : {
+              "extensions" : {
+                "money" : 7000.0,
+                "lives" : 0.0,
+                "towers" : 0.0
+              }
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/initialized"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/stage",
+                "extensions" : {
+                  "gameplayId" : "5dd6b2d35187cd0095b07ee4",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:52:51.234Z",
+                  "currentSessionStarted" : "2019-11-21T15:52:51.234Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/wave"
+            },
+            "timestamp" : "2019-11-21T15:55:31.748Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 7000.0,
+              "lives" : 0.0,
+              "towers" : 0.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:52:51.234Z",
+            "session" : 1.0,
+            "type" : "stage",
+            "target" : "wave",
+            "gameplayId" : "5dd6b2d35187cd0095b07ee4",
+            "type_hashCode" : 109757182,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "b5d98117-e9f5-4b25-9134-c764d3b5ff32",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 3642105,
+            "stored" : "2019-11-21T15:52:51.753Z",
+            "name" : "carlos",
+            "event_hashCode" : 1234020052,
+            "event" : "initialized",
+            "timestamp" : "2019-11-21T15:55:31.748Z",
+            "firstSessionStarted" : "2019-11-21T15:52:51.234Z"
+          },
+          "playerId" : "5dd6ad435187cd0095b07ecb",
+          "gameplayId" : "5dd6b2d35187cd0095b07ee4"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OqwxlSUwfhkBhpuBl",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "aitor"
+              },
+              "name" : "aitor"
+            },
+            "result" : {
+              "extensions" : {
+                "money" : 7000.0,
+                "lives" : 0.0,
+                "towers" : 0.0
+              }
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/initialized"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/stage",
+                "extensions" : {
+                  "gameplayId" : "5dd6b2f45187cd0095b07ee9",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:53:24.125Z",
+                  "currentSessionStarted" : "2019-11-21T15:53:24.125Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/wave"
+            },
+            "timestamp" : "2019-11-21T15:56:04.836Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 7000.0,
+              "lives" : 0.0,
+              "towers" : 0.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:53:24.125Z",
+            "session" : 1.0,
+            "type" : "stage",
+            "target" : "wave",
+            "gameplayId" : "5dd6b2f45187cd0095b07ee9",
+            "type_hashCode" : 109757182,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "875b520b-47b0-47bb-9bbe-48082ea60c51",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 3642105,
+            "stored" : "2019-11-21T15:53:24.828Z",
+            "name" : "aitor",
+            "event_hashCode" : 1234020052,
+            "event" : "initialized",
+            "timestamp" : "2019-11-21T15:56:04.836Z",
+            "firstSessionStarted" : "2019-11-21T15:53:24.125Z"
+          },
+          "playerId" : "5dd6abe15187cd0095b07ebf",
+          "gameplayId" : "5dd6b2f45187cd0095b07ee9"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OrW8vSUwfhkBhpuCG",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "paloma"
+              },
+              "name" : "paloma"
+            },
+            "result" : {
+              "score" : {
+                "raw" : 1.0
+              },
+              "extensions" : {
+                "writing_time" : 258.0
+              },
+              "success" : false,
+              "response" : "(retval == (exists(a, x == i -> i)))"
+            },
+            "verb" : {
+              "id" : "https://w3id.org/xapi/adb/verbs/selected"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "http://adlnet.gov/expapi/activities/question",
+                "extensions" : {
+                  "gameplayId" : "5dd6b21f5187cd0095b07edf",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:49:51.923Z",
+                  "currentSessionStarted" : "2019-11-21T15:49:51.923Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/post"
+            },
+            "timestamp" : "2019-11-21T15:58:41.251Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "writing_time" : 258.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:49:51.923Z",
+            "session" : 1.0,
+            "type" : "question",
+            "target" : "post",
+            "gameplayId" : "5dd6b21f5187cd0095b07edf",
+            "type_hashCode" : -1165870106,
+            "score" : 1.0,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "0fea45bb-bd4b-491b-968d-87d17583bf9b",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 3446944,
+            "success" : false,
+            "response" : "(retval == (exists(a, x == i -> i)))",
+            "stored" : "2019-11-21T15:56:01.192Z",
+            "name" : "paloma",
+            "event_hashCode" : 1191572123,
+            "event" : "selected",
+            "timestamp" : "2019-11-21T15:58:41.251Z",
+            "firstSessionStarted" : "2019-11-21T15:49:51.923Z"
+          },
+          "playerId" : "5dd6acba5187cd0095b07ec5",
+          "gameplayId" : "5dd6b21f5187cd0095b07edf"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OsUPjSUwfhkBhpuCp",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "juan"
+              },
+              "name" : "juan"
+            },
+            "result" : {
+              "score" : {
+                "raw" : 1.0
+              },
+              "extensions" : {
+                "writing_time" : 219.0
+              },
+              "success" : false,
+              "response" : "(imp(retval, exists(a, i -> x == (a[i]))))"
+            },
+            "verb" : {
+              "id" : "https://w3id.org/xapi/adb/verbs/selected"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "http://adlnet.gov/expapi/activities/question",
+                "extensions" : {
+                  "gameplayId" : "5dd6b2d35187cd0095b07ee6",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:52:51.852Z",
+                  "currentSessionStarted" : "2019-11-21T15:52:51.852Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/post"
+            },
+            "timestamp" : "2019-11-21T16:02:52.506Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "writing_time" : 219.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:52:51.852Z",
+            "session" : 1.0,
+            "type" : "question",
+            "target" : "post",
+            "gameplayId" : "5dd6b2d35187cd0095b07ee6",
+            "type_hashCode" : -1165870106,
+            "score" : 1.0,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "79dcfda3-c1cc-4e0c-ad6e-ab53480f52bd",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 3446944,
+            "success" : false,
+            "response" : "(imp(retval, exists(a, i -> x == (a[i]))))",
+            "stored" : "2019-11-21T16:00:12.251Z",
+            "name" : "juan",
+            "event_hashCode" : 1191572123,
+            "event" : "selected",
+            "timestamp" : "2019-11-21T16:02:52.506Z",
+            "firstSessionStarted" : "2019-11-21T15:52:51.852Z"
+          },
+          "playerId" : "5dd6abd55187cd0095b07ebc",
+          "gameplayId" : "5dd6b2d35187cd0095b07ee6"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OtFjOSUwfhkBhpuDD",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "paloma"
+              },
+              "name" : "paloma"
+            },
+            "result" : {
+              "extensions" : {
+                "money" : 7000.0,
+                "lives" : 0.0,
+                "towers" : 0.0
+              }
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/initialized"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/stage",
+                "extensions" : {
+                  "gameplayId" : "5dd6b21f5187cd0095b07edf",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 2.0,
+                  "firstSessionStarted" : "2019-11-21T15:49:51.923Z",
+                  "currentSessionStarted" : "2019-11-21T16:03:34.079Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/wave"
+            },
+            "timestamp" : "2019-11-21T16:06:14.583Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 7000.0,
+              "lives" : 0.0,
+              "towers" : 0.0
+            },
+            "currentSessionStarted" : "2019-11-21T16:03:34.079Z",
+            "session" : 2.0,
+            "type" : "stage",
+            "target" : "wave",
+            "gameplayId" : "5dd6b21f5187cd0095b07edf",
+            "type_hashCode" : 109757182,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "b5924d69-4c39-492d-a2f4-15d236841794",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 3642105,
+            "stored" : "2019-11-21T16:03:34.216Z",
+            "name" : "paloma",
+            "event_hashCode" : 1234020052,
+            "event" : "initialized",
+            "timestamp" : "2019-11-21T16:06:14.583Z",
+            "firstSessionStarted" : "2019-11-21T15:49:51.923Z"
+          },
+          "playerId" : "5dd6acba5187cd0095b07ec5",
+          "gameplayId" : "5dd6b21f5187cd0095b07edf"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6Op84XSUwfhkBhpt_j",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "paloma"
+              },
+              "name" : "paloma"
+            },
+            "result" : {
+              "extensions" : {
+                "money" : 7000.0,
+                "lives" : 0.0,
+                "towers" : 0.0
+              }
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/initialized"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/level",
+                "extensions" : {
+                  "gameplayId" : "5dd6b21f5187cd0095b07edf",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:49:51.923Z",
+                  "currentSessionStarted" : "2019-11-21T15:49:51.923Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/level1"
+            },
+            "timestamp" : "2019-11-21T15:52:32.385Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 7000.0,
+              "lives" : 0.0,
+              "towers" : 0.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:49:51.923Z",
+            "session" : 1.0,
+            "type" : "level",
+            "target" : "level1",
+            "gameplayId" : "5dd6b21f5187cd0095b07edf",
+            "type_hashCode" : 102865796,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "9895a1e7-4846-4392-81dd-daa751fa52d7",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : -1106127571,
+            "stored" : "2019-11-21T15:49:52.257Z",
+            "name" : "paloma",
+            "event_hashCode" : 1234020052,
+            "event" : "initialized",
+            "timestamp" : "2019-11-21T15:52:32.385Z",
+            "firstSessionStarted" : "2019-11-21T15:49:51.923Z"
+          },
+          "playerId" : "5dd6acba5187cd0095b07ec5",
+          "gameplayId" : "5dd6b21f5187cd0095b07edf"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OqXU4SUwfhkBhpuAm",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "qwerty"
+              },
+              "name" : "qwerty"
+            },
+            "result" : {
+              "extensions" : {
+                "money" : 7000.0,
+                "lives" : 0.0,
+                "towers" : 0.0
+              }
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/initialized"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/stage",
+                "extensions" : {
+                  "gameplayId" : "5dd6b28c5187cd0095b07ee2",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:51:40.205Z",
+                  "currentSessionStarted" : "2019-11-21T15:51:40.205Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/wave"
+            },
+            "timestamp" : "2019-11-21T15:54:20.721Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 7000.0,
+              "lives" : 0.0,
+              "towers" : 0.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:51:40.205Z",
+            "session" : 1.0,
+            "type" : "stage",
+            "target" : "wave",
+            "gameplayId" : "5dd6b28c5187cd0095b07ee2",
+            "type_hashCode" : 109757182,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "c4ce8095-b013-4aa3-87e8-df7b5df99ee0",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 3642105,
+            "stored" : "2019-11-21T15:51:40.592Z",
+            "name" : "qwerty",
+            "event_hashCode" : 1234020052,
+            "event" : "initialized",
+            "timestamp" : "2019-11-21T15:54:20.721Z",
+            "firstSessionStarted" : "2019-11-21T15:51:40.205Z"
+          },
+          "playerId" : "5dd6ad745187cd0095b07ed1",
+          "gameplayId" : "5dd6b28c5187cd0095b07ee2"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OqosxSUwfhkBhpuBG",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "carlos"
+              },
+              "name" : "carlos"
+            },
+            "result" : {
+              "extensions" : {
+                "money" : 7000.0,
+                "lives" : 0.0,
+                "towers" : 0.0
+              }
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/initialized"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/level",
+                "extensions" : {
+                  "gameplayId" : "5dd6b2d35187cd0095b07ee4",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:52:51.234Z",
+                  "currentSessionStarted" : "2019-11-21T15:52:51.234Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/level1"
+            },
+            "timestamp" : "2019-11-21T15:55:31.684Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 7000.0,
+              "lives" : 0.0,
+              "towers" : 0.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:52:51.234Z",
+            "session" : 1.0,
+            "type" : "level",
+            "target" : "level1",
+            "gameplayId" : "5dd6b2d35187cd0095b07ee4",
+            "type_hashCode" : 102865796,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "3c5010f5-0207-4676-b132-bb9fb7c2e8d1",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : -1106127571,
+            "stored" : "2019-11-21T15:52:51.753Z",
+            "name" : "carlos",
+            "event_hashCode" : 1234020052,
+            "event" : "initialized",
+            "timestamp" : "2019-11-21T15:55:31.684Z",
+            "firstSessionStarted" : "2019-11-21T15:52:51.234Z"
+          },
+          "playerId" : "5dd6ad435187cd0095b07ecb",
+          "gameplayId" : "5dd6b2d35187cd0095b07ee4"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6Oqo0pSUwfhkBhpuBP",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "juan"
+              },
+              "name" : "juan"
+            },
+            "result" : {
+              "extensions" : {
+                "money" : 7000.0,
+                "lives" : 0.0,
+                "towers" : 0.0
+              }
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/initialized"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/level",
+                "extensions" : {
+                  "gameplayId" : "5dd6b2d35187cd0095b07ee6",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:52:51.852Z",
+                  "currentSessionStarted" : "2019-11-21T15:52:51.852Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/level1"
+            },
+            "timestamp" : "2019-11-21T15:55:32.301Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 7000.0,
+              "lives" : 0.0,
+              "towers" : 0.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:52:51.852Z",
+            "session" : 1.0,
+            "type" : "level",
+            "target" : "level1",
+            "gameplayId" : "5dd6b2d35187cd0095b07ee6",
+            "type_hashCode" : 102865796,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "8cf049a6-f928-4598-913b-0fa06101d604",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : -1106127571,
+            "stored" : "2019-11-21T15:52:52.257Z",
+            "name" : "juan",
+            "event_hashCode" : 1234020052,
+            "event" : "initialized",
+            "timestamp" : "2019-11-21T15:55:32.301Z",
+            "firstSessionStarted" : "2019-11-21T15:52:51.852Z"
+          },
+          "playerId" : "5dd6abd55187cd0095b07ebc",
+          "gameplayId" : "5dd6b2d35187cd0095b07ee6"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OriVBSUwfhkBhpuCQ",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "aitor"
+              },
+              "name" : "aitor"
+            },
+            "result" : {
+              "score" : {
+                "raw" : 0.0
+              },
+              "extensions" : {
+                "writing_time" : 184.0
+              },
+              "success" : true,
+              "response" : "(a != (null))"
+            },
+            "verb" : {
+              "id" : "https://w3id.org/xapi/adb/verbs/selected"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "http://adlnet.gov/expapi/activities/question",
+                "extensions" : {
+                  "gameplayId" : "5dd6b2f45187cd0095b07ee9",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:53:24.125Z",
+                  "currentSessionStarted" : "2019-11-21T15:53:24.125Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/pre"
+            },
+            "timestamp" : "2019-11-21T15:59:28.035Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "writing_time" : 184.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:53:24.125Z",
+            "session" : 1.0,
+            "type" : "question",
+            "target" : "pre",
+            "gameplayId" : "5dd6b2f45187cd0095b07ee9",
+            "type_hashCode" : -1165870106,
+            "score" : 0.0,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "de28694e-00b6-4189-9d66-31ea4c887d81",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 111267,
+            "success" : true,
+            "response" : "(a != (null))",
+            "stored" : "2019-11-21T15:56:47.803Z",
+            "name" : "aitor",
+            "event_hashCode" : 1191572123,
+            "event" : "selected",
+            "timestamp" : "2019-11-21T15:59:28.035Z",
+            "firstSessionStarted" : "2019-11-21T15:53:24.125Z"
+          },
+          "playerId" : "5dd6abe15187cd0095b07ebf",
+          "gameplayId" : "5dd6b2f45187cd0095b07ee9"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OsSxkSUwfhkBhpuCk",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "paloma"
+              },
+              "name" : "paloma"
+            },
+            "result" : {
+              "score" : {
+                "raw" : 1.0
+              },
+              "extensions" : {
+                "money" : 5169.0,
+                "lives" : 12.0,
+                "time" : 617.0,
+                "towers" : 0.0
+              },
+              "success" : true
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/completed"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/stage",
+                "extensions" : {
+                  "gameplayId" : "5dd6b21f5187cd0095b07edf",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:49:51.923Z",
+                  "currentSessionStarted" : "2019-11-21T15:49:51.923Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/wave"
+            },
+            "timestamp" : "2019-11-21T16:02:46.377Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 5169.0,
+              "lives" : 12.0,
+              "time" : 617.0,
+              "towers" : 0.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:49:51.923Z",
+            "session" : 1.0,
+            "type" : "stage",
+            "target" : "wave",
+            "gameplayId" : "5dd6b21f5187cd0095b07edf",
+            "type_hashCode" : 109757182,
+            "score" : 1.0,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "183ca1ea-273d-4647-ab4f-6f5113eae5cf",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 3642105,
+            "success" : true,
+            "stored" : "2019-11-21T16:00:06.236Z",
+            "name" : "paloma",
+            "event_hashCode" : -1402931637,
+            "event" : "completed",
+            "timestamp" : "2019-11-21T16:02:46.377Z",
+            "firstSessionStarted" : "2019-11-21T15:49:51.923Z"
+          },
+          "playerId" : "5dd6acba5187cd0095b07ec5",
+          "gameplayId" : "5dd6b21f5187cd0095b07edf"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OsfAoSUwfhkBhpuCz",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "juan"
+              },
+              "name" : "juan"
+            },
+            "result" : {
+              "extensions" : {
+                "money" : 993.0,
+                "lives" : 36.0,
+                "time" : 486.0,
+                "towers" : 7.0
+              }
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/initialized"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/stage",
+                "extensions" : {
+                  "gameplayId" : "5dd6b2d35187cd0095b07ee6",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:52:51.852Z",
+                  "currentSessionStarted" : "2019-11-21T15:52:51.852Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/wave"
+            },
+            "timestamp" : "2019-11-21T16:03:36.595Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 993.0,
+              "lives" : 36.0,
+              "time" : 486.0,
+              "towers" : 7.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:52:51.852Z",
+            "session" : 1.0,
+            "type" : "stage",
+            "target" : "wave",
+            "gameplayId" : "5dd6b2d35187cd0095b07ee6",
+            "type_hashCode" : 109757182,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "06141b01-0787-4b40-9405-6de826007b01",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 3642105,
+            "stored" : "2019-11-21T16:00:56.352Z",
+            "name" : "juan",
+            "event_hashCode" : 1234020052,
+            "event" : "initialized",
+            "timestamp" : "2019-11-21T16:03:36.595Z",
+            "firstSessionStarted" : "2019-11-21T15:52:51.852Z"
+          },
+          "playerId" : "5dd6abd55187cd0095b07ebc",
+          "gameplayId" : "5dd6b2d35187cd0095b07ee6"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6Os9uCSUwfhkBhpuC4",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "juan"
+              },
+              "name" : "juan"
+            },
+            "result" : {
+              "score" : {
+                "raw" : 1.0
+              },
+              "extensions" : {
+                "writing_time" : 61.0,
+                "time" : 612.0
+              },
+              "success" : false,
+              "response" : "(imp(retval == (true), exists(a, i -> x == (a[i]))))"
+            },
+            "verb" : {
+              "id" : "https://w3id.org/xapi/adb/verbs/selected"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "http://adlnet.gov/expapi/activities/question",
+                "extensions" : {
+                  "gameplayId" : "5dd6b2d35187cd0095b07ee6",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:52:51.852Z",
+                  "currentSessionStarted" : "2019-11-21T15:52:51.852Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/post"
+            },
+            "timestamp" : "2019-11-21T16:05:42.134Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "writing_time" : 61.0,
+              "time" : 612.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:52:51.852Z",
+            "session" : 1.0,
+            "type" : "question",
+            "target" : "post",
+            "gameplayId" : "5dd6b2d35187cd0095b07ee6",
+            "type_hashCode" : -1165870106,
+            "score" : 1.0,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "a4e51219-54ca-4f44-be95-1e6e8d9e89bc",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 3446944,
+            "success" : false,
+            "response" : "(imp(retval == (true), exists(a, i -> x == (a[i]))))",
+            "stored" : "2019-11-21T16:03:02.140Z",
+            "name" : "juan",
+            "event_hashCode" : 1191572123,
+            "event" : "selected",
+            "timestamp" : "2019-11-21T16:05:42.134Z",
+            "firstSessionStarted" : "2019-11-21T15:52:51.852Z"
+          },
+          "playerId" : "5dd6abd55187cd0095b07ebc",
+          "gameplayId" : "5dd6b2d35187cd0095b07ee6"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OrdzWSUwfhkBhpuCN",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "juan"
+              },
+              "name" : "juan"
+            },
+            "result" : {
+              "score" : {
+                "raw" : 0.0
+              },
+              "extensions" : {
+                "writing_time" : 195.0
+              },
+              "success" : true,
+              "response" : "(a != (null))"
+            },
+            "verb" : {
+              "id" : "https://w3id.org/xapi/adb/verbs/selected"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "http://adlnet.gov/expapi/activities/question",
+                "extensions" : {
+                  "gameplayId" : "5dd6b2d35187cd0095b07ee6",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:52:51.852Z",
+                  "currentSessionStarted" : "2019-11-21T15:52:51.852Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/pre"
+            },
+            "timestamp" : "2019-11-21T15:59:09.456Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "writing_time" : 195.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:52:51.852Z",
+            "session" : 1.0,
+            "type" : "question",
+            "target" : "pre",
+            "gameplayId" : "5dd6b2d35187cd0095b07ee6",
+            "type_hashCode" : -1165870106,
+            "score" : 0.0,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "544b670f-c377-47b0-bba4-d4f648d18984",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 111267,
+            "success" : true,
+            "response" : "(a != (null))",
+            "stored" : "2019-11-21T15:56:29.260Z",
+            "name" : "juan",
+            "event_hashCode" : 1191572123,
+            "event" : "selected",
+            "timestamp" : "2019-11-21T15:59:09.456Z",
+            "firstSessionStarted" : "2019-11-21T15:52:51.852Z"
+          },
+          "playerId" : "5dd6abd55187cd0095b07ebc",
+          "gameplayId" : "5dd6b2d35187cd0095b07ee6"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OsSxkSUwfhkBhpuCl",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "paloma"
+              },
+              "name" : "paloma"
+            },
+            "result" : {
+              "extensions" : {
+                "money" : 5169.0,
+                "lives" : 12.0,
+                "time" : 617.0,
+                "towers" : 0.0
+              }
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/initialized"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/stage",
+                "extensions" : {
+                  "gameplayId" : "5dd6b21f5187cd0095b07edf",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:49:51.923Z",
+                  "currentSessionStarted" : "2019-11-21T15:49:51.923Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/wave"
+            },
+            "timestamp" : "2019-11-21T16:02:46.531Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 5169.0,
+              "lives" : 12.0,
+              "time" : 617.0,
+              "towers" : 0.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:49:51.923Z",
+            "session" : 1.0,
+            "type" : "stage",
+            "target" : "wave",
+            "gameplayId" : "5dd6b21f5187cd0095b07edf",
+            "type_hashCode" : 109757182,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "ab66cf96-13f0-45f3-af95-d4bd4e521f99",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 3642105,
+            "stored" : "2019-11-21T16:00:06.236Z",
+            "name" : "paloma",
+            "event_hashCode" : 1234020052,
+            "event" : "initialized",
+            "timestamp" : "2019-11-21T16:02:46.531Z",
+            "firstSessionStarted" : "2019-11-21T15:49:51.923Z"
+          },
+          "playerId" : "5dd6acba5187cd0095b07ec5",
+          "gameplayId" : "5dd6b21f5187cd0095b07edf"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OtCAYSUwfhkBhpuC8",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "juan"
+              },
+              "name" : "juan"
+            },
+            "result" : {
+              "score" : {
+                "raw" : 1.0
+              },
+              "extensions" : {
+                "money" : 1213.0,
+                "lives" : 22.0,
+                "time" : 629.0,
+                "towers" : 7.0
+              },
+              "success" : true
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/completed"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/stage",
+                "extensions" : {
+                  "gameplayId" : "5dd6b2d35187cd0095b07ee6",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:52:51.852Z",
+                  "currentSessionStarted" : "2019-11-21T15:52:51.852Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/wave"
+            },
+            "timestamp" : "2019-11-21T16:05:59.555Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 1213.0,
+              "lives" : 22.0,
+              "time" : 629.0,
+              "towers" : 7.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:52:51.852Z",
+            "session" : 1.0,
+            "type" : "stage",
+            "target" : "wave",
+            "gameplayId" : "5dd6b2d35187cd0095b07ee6",
+            "type_hashCode" : 109757182,
+            "score" : 1.0,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "5a390f58-2aa2-4b31-9b8e-bf63448de93c",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 3642105,
+            "success" : true,
+            "stored" : "2019-11-21T16:03:19.694Z",
+            "name" : "juan",
+            "event_hashCode" : -1402931637,
+            "event" : "completed",
+            "timestamp" : "2019-11-21T16:05:59.555Z",
+            "firstSessionStarted" : "2019-11-21T15:52:51.852Z"
+          },
+          "playerId" : "5dd6abd55187cd0095b07ebc",
+          "gameplayId" : "5dd6b2d35187cd0095b07ee6"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OtFjOSUwfhkBhpuDC",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "paloma"
+              },
+              "name" : "paloma"
+            },
+            "result" : {
+              "extensions" : {
+                "money" : 7000.0,
+                "lives" : 0.0,
+                "towers" : 0.0
+              }
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/initialized"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/level",
+                "extensions" : {
+                  "gameplayId" : "5dd6b21f5187cd0095b07edf",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 2.0,
+                  "firstSessionStarted" : "2019-11-21T15:49:51.923Z",
+                  "currentSessionStarted" : "2019-11-21T16:03:34.079Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/level1"
+            },
+            "timestamp" : "2019-11-21T16:06:14.520Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 7000.0,
+              "lives" : 0.0,
+              "towers" : 0.0
+            },
+            "currentSessionStarted" : "2019-11-21T16:03:34.079Z",
+            "session" : 2.0,
+            "type" : "level",
+            "target" : "level1",
+            "gameplayId" : "5dd6b21f5187cd0095b07edf",
+            "type_hashCode" : 102865796,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "c10aef8b-a944-4174-b734-a34eabc62eec",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : -1106127571,
+            "stored" : "2019-11-21T16:03:34.215Z",
+            "name" : "paloma",
+            "event_hashCode" : 1234020052,
+            "event" : "initialized",
+            "timestamp" : "2019-11-21T16:06:14.520Z",
+            "firstSessionStarted" : "2019-11-21T15:49:51.923Z"
+          },
+          "playerId" : "5dd6acba5187cd0095b07ec5",
+          "gameplayId" : "5dd6b21f5187cd0095b07edf"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6Otq_fSUwfhkBhpuDJ",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "aitor"
+              },
+              "name" : "aitor"
+            },
+            "result" : {
+              "score" : {
+                "raw" : 1.0
+              },
+              "extensions" : {
+                "writing_time" : 557.0
+              },
+              "success" : false,
+              "response" : "true"
+            },
+            "verb" : {
+              "id" : "https://w3id.org/xapi/adb/verbs/selected"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "http://adlnet.gov/expapi/activities/question",
+                "extensions" : {
+                  "gameplayId" : "5dd6b2f45187cd0095b07ee9",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:53:24.125Z",
+                  "currentSessionStarted" : "2019-11-21T15:53:24.125Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/post"
+            },
+            "timestamp" : "2019-11-21T16:08:47.767Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "writing_time" : 557.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:53:24.125Z",
+            "session" : 1.0,
+            "type" : "question",
+            "target" : "post",
+            "gameplayId" : "5dd6b2f45187cd0095b07ee9",
+            "type_hashCode" : -1165870106,
+            "score" : 1.0,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "17200dee-c7e2-433d-9570-d85fd9ddea60",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 3446944,
+            "success" : false,
+            "response" : "true",
+            "stored" : "2019-11-21T16:06:07.576Z",
+            "name" : "aitor",
+            "event_hashCode" : 1191572123,
+            "event" : "selected",
+            "timestamp" : "2019-11-21T16:08:47.767Z",
+            "firstSessionStarted" : "2019-11-21T15:53:24.125Z"
+          },
+          "playerId" : "5dd6abe15187cd0095b07ebf",
+          "gameplayId" : "5dd6b2f45187cd0095b07ee9"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6Op9BTSUwfhkBhpt_n",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "paloma"
+              },
+              "name" : "paloma"
+            },
+            "result" : {
+              "extensions" : {
+                "money" : 7000.0,
+                "lives" : 0.0,
+                "towers" : 0.0
+              }
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/initialized"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/stage",
+                "extensions" : {
+                  "gameplayId" : "5dd6b21f5187cd0095b07edf",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:49:51.923Z",
+                  "currentSessionStarted" : "2019-11-21T15:49:51.923Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/wave"
+            },
+            "timestamp" : "2019-11-21T15:52:32.648Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 7000.0,
+              "lives" : 0.0,
+              "towers" : 0.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:49:51.923Z",
+            "session" : 1.0,
+            "type" : "stage",
+            "target" : "wave",
+            "gameplayId" : "5dd6b21f5187cd0095b07edf",
+            "type_hashCode" : 109757182,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "1f31ac32-27c5-41f1-bcf5-99df34f7a3de",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 3642105,
+            "stored" : "2019-11-21T15:49:52.845Z",
+            "name" : "paloma",
+            "event_hashCode" : 1234020052,
+            "event" : "initialized",
+            "timestamp" : "2019-11-21T15:52:32.648Z",
+            "firstSessionStarted" : "2019-11-21T15:49:51.923Z"
+          },
+          "playerId" : "5dd6acba5187cd0095b07ec5",
+          "gameplayId" : "5dd6b21f5187cd0095b07edf"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OqXU4SUwfhkBhpuAn",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "qwerty"
+              },
+              "name" : "qwerty"
+            },
+            "result" : {
+              "extensions" : {
+                "money" : 7000.0,
+                "lives" : 0.0,
+                "towers" : 0.0
+              }
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/initialized"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/stage",
+                "extensions" : {
+                  "gameplayId" : "5dd6b28c5187cd0095b07ee2",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:51:40.205Z",
+                  "currentSessionStarted" : "2019-11-21T15:51:40.205Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/wave"
+            },
+            "timestamp" : "2019-11-21T15:54:20.893Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 7000.0,
+              "lives" : 0.0,
+              "towers" : 0.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:51:40.205Z",
+            "session" : 1.0,
+            "type" : "stage",
+            "target" : "wave",
+            "gameplayId" : "5dd6b28c5187cd0095b07ee2",
+            "type_hashCode" : 109757182,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "7d59789c-4190-4db7-b60b-fa7974cd2210",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 3642105,
+            "stored" : "2019-11-21T15:51:40.592Z",
+            "name" : "qwerty",
+            "event_hashCode" : 1234020052,
+            "event" : "initialized",
+            "timestamp" : "2019-11-21T15:54:20.893Z",
+            "firstSessionStarted" : "2019-11-21T15:51:40.205Z"
+          },
+          "playerId" : "5dd6ad745187cd0095b07ed1",
+          "gameplayId" : "5dd6b28c5187cd0095b07ee2"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OqXcySUwfhkBhpuAs",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "paloma"
+              },
+              "name" : "paloma"
+            },
+            "result" : {
+              "score" : {
+                "raw" : 0.0
+              },
+              "extensions" : {
+                "writing_time" : 62.0
+              },
+              "success" : true,
+              "response" : "(a != (null))"
+            },
+            "verb" : {
+              "id" : "https://w3id.org/xapi/adb/verbs/selected"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "http://adlnet.gov/expapi/activities/question",
+                "extensions" : {
+                  "gameplayId" : "5dd6b21f5187cd0095b07edf",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:49:51.923Z",
+                  "currentSessionStarted" : "2019-11-21T15:49:51.923Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/pre"
+            },
+            "timestamp" : "2019-11-21T15:54:21.170Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "writing_time" : 62.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:49:51.923Z",
+            "session" : 1.0,
+            "type" : "question",
+            "target" : "pre",
+            "gameplayId" : "5dd6b21f5187cd0095b07edf",
+            "type_hashCode" : -1165870106,
+            "score" : 0.0,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "2bc4e53f-61a5-4b6b-8ff8-4a154642090b",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 111267,
+            "success" : true,
+            "response" : "(a != (null))",
+            "stored" : "2019-11-21T15:51:41.098Z",
+            "name" : "paloma",
+            "event_hashCode" : 1191572123,
+            "event" : "selected",
+            "timestamp" : "2019-11-21T15:54:21.170Z",
+            "firstSessionStarted" : "2019-11-21T15:49:51.923Z"
+          },
+          "playerId" : "5dd6acba5187cd0095b07ec5",
+          "gameplayId" : "5dd6b21f5187cd0095b07edf"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6Oqo0pSUwfhkBhpuBQ",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "juan"
+              },
+              "name" : "juan"
+            },
+            "result" : {
+              "extensions" : {
+                "money" : 7000.0,
+                "lives" : 0.0,
+                "towers" : 0.0
+              }
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/initialized"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/stage",
+                "extensions" : {
+                  "gameplayId" : "5dd6b2d35187cd0095b07ee6",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:52:51.852Z",
+                  "currentSessionStarted" : "2019-11-21T15:52:51.852Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/wave"
+            },
+            "timestamp" : "2019-11-21T15:55:32.364Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 7000.0,
+              "lives" : 0.0,
+              "towers" : 0.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:52:51.852Z",
+            "session" : 1.0,
+            "type" : "stage",
+            "target" : "wave",
+            "gameplayId" : "5dd6b2d35187cd0095b07ee6",
+            "type_hashCode" : 109757182,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "ab43fd96-38d9-4950-a198-6160701cf827",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 3642105,
+            "stored" : "2019-11-21T15:52:52.258Z",
+            "name" : "juan",
+            "event_hashCode" : 1234020052,
+            "event" : "initialized",
+            "timestamp" : "2019-11-21T15:55:32.364Z",
+            "firstSessionStarted" : "2019-11-21T15:52:51.852Z"
+          },
+          "playerId" : "5dd6abd55187cd0095b07ebc",
+          "gameplayId" : "5dd6b2d35187cd0095b07ee6"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6Oqo0pSUwfhkBhpuBR",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "juan"
+              },
+              "name" : "juan"
+            },
+            "result" : {
+              "extensions" : {
+                "money" : 7000.0,
+                "lives" : 0.0,
+                "towers" : 0.0
+              }
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/initialized"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/stage",
+                "extensions" : {
+                  "gameplayId" : "5dd6b2d35187cd0095b07ee6",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:52:51.852Z",
+                  "currentSessionStarted" : "2019-11-21T15:52:51.852Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/wave"
+            },
+            "timestamp" : "2019-11-21T15:55:32.555Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 7000.0,
+              "lives" : 0.0,
+              "towers" : 0.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:52:51.852Z",
+            "session" : 1.0,
+            "type" : "stage",
+            "target" : "wave",
+            "gameplayId" : "5dd6b2d35187cd0095b07ee6",
+            "type_hashCode" : 109757182,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "8b14566b-e834-47e9-a16a-d9f1a8cd3590",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 3642105,
+            "stored" : "2019-11-21T15:52:52.258Z",
+            "name" : "juan",
+            "event_hashCode" : 1234020052,
+            "event" : "initialized",
+            "timestamp" : "2019-11-21T15:55:32.555Z",
+            "firstSessionStarted" : "2019-11-21T15:52:51.852Z"
+          },
+          "playerId" : "5dd6abd55187cd0095b07ebc",
+          "gameplayId" : "5dd6b2d35187cd0095b07ee6"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OqwpsSUwfhkBhpuBh",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "aitor"
+              },
+              "name" : "aitor"
+            },
+            "result" : {
+              "extensions" : {
+                "money" : 7000.0,
+                "lives" : 0.0,
+                "towers" : 0.0
+              }
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/initialized"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/stage",
+                "extensions" : {
+                  "gameplayId" : "5dd6b2f45187cd0095b07ee9",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:53:24.125Z",
+                  "currentSessionStarted" : "2019-11-21T15:53:24.125Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/wave"
+            },
+            "timestamp" : "2019-11-21T15:56:04.636Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 7000.0,
+              "lives" : 0.0,
+              "towers" : 0.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:53:24.125Z",
+            "session" : 1.0,
+            "type" : "stage",
+            "target" : "wave",
+            "gameplayId" : "5dd6b2f45187cd0095b07ee9",
+            "type_hashCode" : 109757182,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "c76c71e0-fe6d-425e-a8ae-d3f8466e00bd",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 3642105,
+            "stored" : "2019-11-21T15:53:24.327Z",
+            "name" : "aitor",
+            "event_hashCode" : 1234020052,
+            "event" : "initialized",
+            "timestamp" : "2019-11-21T15:56:04.636Z",
+            "firstSessionStarted" : "2019-11-21T15:53:24.125Z"
+          },
+          "playerId" : "5dd6abe15187cd0095b07ebf",
+          "gameplayId" : "5dd6b2f45187cd0095b07ee9"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OrSqsSUwfhkBhpuB6",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "carlos"
+              },
+              "name" : "carlos"
+            },
+            "result" : {
+              "score" : {
+                "raw" : 1.0
+              },
+              "extensions" : {
+                "writing_time" : 7.0
+              },
+              "success" : false,
+              "response" : "true"
+            },
+            "verb" : {
+              "id" : "https://w3id.org/xapi/adb/verbs/selected"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "http://adlnet.gov/expapi/activities/question",
+                "extensions" : {
+                  "gameplayId" : "5dd6b2d35187cd0095b07ee4",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:52:51.234Z",
+                  "currentSessionStarted" : "2019-11-21T15:52:51.234Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/pre"
+            },
+            "timestamp" : "2019-11-21T15:58:23.916Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "writing_time" : 7.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:52:51.234Z",
+            "session" : 1.0,
+            "type" : "question",
+            "target" : "pre",
+            "gameplayId" : "5dd6b2d35187cd0095b07ee4",
+            "type_hashCode" : -1165870106,
+            "score" : 1.0,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "aa6e4a75-732c-4b46-8682-c91d6d5eb079",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 111267,
+            "success" : false,
+            "response" : "true",
+            "stored" : "2019-11-21T15:55:43.652Z",
+            "name" : "carlos",
+            "event_hashCode" : 1191572123,
+            "event" : "selected",
+            "timestamp" : "2019-11-21T15:58:23.916Z",
+            "firstSessionStarted" : "2019-11-21T15:52:51.234Z"
+          },
+          "playerId" : "5dd6ad435187cd0095b07ecb",
+          "gameplayId" : "5dd6b2d35187cd0095b07ee4"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OrdMISUwfhkBhpuCK",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "paloma"
+              },
+              "name" : "paloma"
+            },
+            "result" : {
+              "score" : {
+                "raw" : 1.0
+              },
+              "extensions" : {
+                "writing_time" : 20.0
+              },
+              "success" : false,
+              "response" : "(retval == (exists(a, i -> x == i)))"
+            },
+            "verb" : {
+              "id" : "https://w3id.org/xapi/adb/verbs/selected"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "http://adlnet.gov/expapi/activities/question",
+                "extensions" : {
+                  "gameplayId" : "5dd6b21f5187cd0095b07edf",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:49:51.923Z",
+                  "currentSessionStarted" : "2019-11-21T15:49:51.923Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/post"
+            },
+            "timestamp" : "2019-11-21T15:59:06.610Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "writing_time" : 20.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:49:51.923Z",
+            "session" : 1.0,
+            "type" : "question",
+            "target" : "post",
+            "gameplayId" : "5dd6b21f5187cd0095b07edf",
+            "type_hashCode" : -1165870106,
+            "score" : 1.0,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "1f29e96a-0bc5-40d6-b3a2-82f80bc8fcd2",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 3446944,
+            "success" : false,
+            "response" : "(retval == (exists(a, i -> x == i)))",
+            "stored" : "2019-11-21T15:56:26.753Z",
+            "name" : "paloma",
+            "event_hashCode" : 1191572123,
+            "event" : "selected",
+            "timestamp" : "2019-11-21T15:59:06.610Z",
+            "firstSessionStarted" : "2019-11-21T15:49:51.923Z"
+          },
+          "playerId" : "5dd6acba5187cd0095b07ec5",
+          "gameplayId" : "5dd6b21f5187cd0095b07edf"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OrikrSUwfhkBhpuCU",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "paloma"
+              },
+              "name" : "paloma"
+            },
+            "result" : {
+              "score" : {
+                "raw" : 1.0
+              },
+              "extensions" : {
+                "money" : 4919.0,
+                "lives" : 40.0,
+                "time" : 420.0,
+                "towers" : 0.0
+              },
+              "success" : true
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/completed"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/stage",
+                "extensions" : {
+                  "gameplayId" : "5dd6b21f5187cd0095b07edf",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:49:51.923Z",
+                  "currentSessionStarted" : "2019-11-21T15:49:51.923Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/wave"
+            },
+            "timestamp" : "2019-11-21T15:59:29.082Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 4919.0,
+              "lives" : 40.0,
+              "time" : 420.0,
+              "towers" : 0.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:49:51.923Z",
+            "session" : 1.0,
+            "type" : "stage",
+            "target" : "wave",
+            "gameplayId" : "5dd6b21f5187cd0095b07edf",
+            "type_hashCode" : 109757182,
+            "score" : 1.0,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "173b6ab4-f40a-47aa-87c1-9ec71f6efbbf",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 3642105,
+            "success" : true,
+            "stored" : "2019-11-21T15:56:48.804Z",
+            "name" : "paloma",
+            "event_hashCode" : -1402931637,
+            "event" : "completed",
+            "timestamp" : "2019-11-21T15:59:29.082Z",
+            "firstSessionStarted" : "2019-11-21T15:49:51.923Z"
+          },
+          "playerId" : "5dd6acba5187cd0095b07ec5",
+          "gameplayId" : "5dd6b21f5187cd0095b07edf"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OrikrSUwfhkBhpuCV",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "paloma"
+              },
+              "name" : "paloma"
+            },
+            "result" : {
+              "extensions" : {
+                "money" : 4919.0,
+                "lives" : 40.0,
+                "time" : 420.0,
+                "towers" : 0.0
+              }
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/initialized"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/stage",
+                "extensions" : {
+                  "gameplayId" : "5dd6b21f5187cd0095b07edf",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:49:51.923Z",
+                  "currentSessionStarted" : "2019-11-21T15:49:51.923Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/wave"
+            },
+            "timestamp" : "2019-11-21T15:59:29.143Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 4919.0,
+              "lives" : 40.0,
+              "time" : 420.0,
+              "towers" : 0.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:49:51.923Z",
+            "session" : 1.0,
+            "type" : "stage",
+            "target" : "wave",
+            "gameplayId" : "5dd6b21f5187cd0095b07edf",
+            "type_hashCode" : 109757182,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "0b733f34-f976-4393-a965-0d1d7dc04abd",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 3642105,
+            "stored" : "2019-11-21T15:56:48.804Z",
+            "name" : "paloma",
+            "event_hashCode" : 1234020052,
+            "event" : "initialized",
+            "timestamp" : "2019-11-21T15:59:29.143Z",
+            "firstSessionStarted" : "2019-11-21T15:49:51.923Z"
+          },
+          "playerId" : "5dd6acba5187cd0095b07ec5",
+          "gameplayId" : "5dd6b21f5187cd0095b07edf"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OsfAoSUwfhkBhpuCy",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "juan"
+              },
+              "name" : "juan"
+            },
+            "result" : {
+              "score" : {
+                "raw" : 1.0
+              },
+              "extensions" : {
+                "money" : 993.0,
+                "lives" : 36.0,
+                "time" : 486.0,
+                "towers" : 7.0
+              },
+              "success" : true
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/completed"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/stage",
+                "extensions" : {
+                  "gameplayId" : "5dd6b2d35187cd0095b07ee6",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:52:51.852Z",
+                  "currentSessionStarted" : "2019-11-21T15:52:51.852Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/wave"
+            },
+            "timestamp" : "2019-11-21T16:03:36.442Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 993.0,
+              "lives" : 36.0,
+              "time" : 486.0,
+              "towers" : 7.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:52:51.852Z",
+            "session" : 1.0,
+            "type" : "stage",
+            "target" : "wave",
+            "gameplayId" : "5dd6b2d35187cd0095b07ee6",
+            "type_hashCode" : 109757182,
+            "score" : 1.0,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "351c1cdd-27bf-4908-b95b-4937f51f05ac",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 3642105,
+            "success" : true,
+            "stored" : "2019-11-21T16:00:56.351Z",
+            "name" : "juan",
+            "event_hashCode" : -1402931637,
+            "event" : "completed",
+            "timestamp" : "2019-11-21T16:03:36.442Z",
+            "firstSessionStarted" : "2019-11-21T15:52:51.852Z"
+          },
+          "playerId" : "5dd6abd55187cd0095b07ebc",
+          "gameplayId" : "5dd6b2d35187cd0095b07ee6"
+        }
+      },
+      {
+        "_index" : "5dd18deb5187cd0095b07ea3",
+        "_type" : "traces",
+        "_id" : "AW6OtCAYSUwfhkBhpuC9",
+        "_score" : 1.0,
+        "_source" : {
+          "activityId" : "5dd18deb5187cd0095b07ea3",
+          "versionId" : "5c613b4dcf73440078c85032",
+          "classId" : "5dd1846b5187cd0095b07ea1",
+          "statement" : {
+            "actor" : {
+              "account" : {
+                "homePage" : "http://a2:3000/",
+                "name" : "juan"
+              },
+              "name" : "juan"
+            },
+            "result" : {
+              "extensions" : {
+                "money" : 1213.0,
+                "lives" : 22.0,
+                "time" : 629.0,
+                "towers" : 7.0
+              }
+            },
+            "verb" : {
+              "id" : "http://adlnet.gov/expapi/verbs/initialized"
+            },
+            "object" : {
+              "definition" : {
+                "type" : "https://w3id.org/xapi/seriousgames/activity-types/stage",
+                "extensions" : {
+                  "gameplayId" : "5dd6b2d35187cd0095b07ee6",
+                  "versionId" : "5c613b4dcf73440078c85032",
+                  "activityId" : "5dd18deb5187cd0095b07ea3",
+                  "session" : 1.0,
+                  "firstSessionStarted" : "2019-11-21T15:52:51.852Z",
+                  "currentSessionStarted" : "2019-11-21T15:52:51.852Z"
+                }
+              },
+              "id" : "http://a2:3000/api/proxy/gleaner/games/5c613b4dcf73440078c85031/5c613b4dcf73440078c85032/wave"
+            },
+            "timestamp" : "2019-11-21T16:05:59.702Z"
+          },
+          "activityName" : "new Activity",
+          "out" : {
+            "ext" : {
+              "money" : 1213.0,
+              "lives" : 22.0,
+              "time" : 629.0,
+              "towers" : 7.0
+            },
+            "currentSessionStarted" : "2019-11-21T15:52:51.852Z",
+            "session" : 1.0,
+            "type" : "stage",
+            "target" : "wave",
+            "gameplayId" : "5dd6b2d35187cd0095b07ee6",
+            "type_hashCode" : 109757182,
+            "activityId" : "5dd18deb5187cd0095b07ea3",
+            "uuidv4" : "4bf19a2b-d9b3-4469-b866-2f1cf4f3400e",
+            "versionId" : "5c613b4dcf73440078c85032",
+            "target_hashCode" : 3642105,
+            "stored" : "2019-11-21T16:03:19.695Z",
+            "name" : "juan",
+            "event_hashCode" : 1234020052,
+            "event" : "initialized",
+            "timestamp" : "2019-11-21T16:05:59.702Z",
+            "firstSessionStarted" : "2019-11-21T15:52:51.852Z"
+          },
+          "playerId" : "5dd6abd55187cd0095b07ebc",
+          "gameplayId" : "5dd6b2d35187cd0095b07ee6"
+        }
+      }
+]

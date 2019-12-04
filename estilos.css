@@ -1,13 +1,23 @@
 
 
 .chart div {
-    font: 10px sans-serif;
-    background-color: steelblue;
-    text-align: right;
-    padding: 3px;
-    margin: 1px;
-    color: white;
-  }
+  font: 10px sans-serif;
+  background-color: rgb(198, 217, 233);
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: rgb(56, 46, 99);
+}
+  
+
+.chart2 div {
+  font: 10px sans-serif;
+  background-color: #fef;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: rgb(56, 46, 99);
+}
   
 
 .circles {

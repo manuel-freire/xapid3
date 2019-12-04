@@ -33,6 +33,46 @@ class BarChart {
     }
 }
 
+// permite especificar, dado un array de objetos, qué usar como cajones
+
+class BarChart2 {
+    constructor(data, binProperty) {
+        let bins = {};
+        data.forEach(o => {
+            let v = o[binProperty] || "???";
+            bins[v] = 1 + (bins[v] ? bins[v] : 0);
+        });
+        // en bins, ahora: { "pedro": 4, "lucas": 2 }
+        // y tras esta transposición (ver https://stackoverflow.com/a/49629733/15472),
+        // [{key: "pedro", value: 4}, {key: "lucas", value: 2}]
+        this.data = Object.entries(bins).map(([key, value]) => ({key, value}))
+
+        d3.select("body").append("div")
+            .classed("chart2", true);
+
+        // primera actualización
+        this.update();
+
+        // y un boton de actualizacion, que pongo a funcionar
+        let that = this;
+        d3.select("body").append("button")            
+            .html("update")
+            .on('click', () => that.update());            
+    }
+
+    update() {
+        d3.select(".chart2")
+            .selectAll("div")
+            .data(this.data)
+            .enter().append("div")
+            .style("width", d => d.value * 10 + "px")
+            .text(d => d.key)
+        d3.select(".chart")
+            .selectAll("div")
+            .data(this.data)
+            .exit().remove();   
+    }
+}
 
 // ejemplo de dispersión
 
