@@ -14,6 +14,15 @@
 </head>
 <body>
 
+  <!-- contenedores para visualizaciones -->
+  <div id="div1" class="vis"></div>
+  <div id="div2" class="vis">
+    <select class="p"></select>
+  </div>
+  <div id="div3" class="vis">
+    <select class="p"></select>
+  </div>
+  <div id="div4" class="vis"></div>
 
   <!-- JavaScript -->
   <script src="jquery-3.3.1.js"></script>
@@ -25,9 +34,89 @@
   <script src="vista.js"></script>
   <script>
   
-    let bar1 = new BarChart(data["chart"]);
-    let bar2 = new BarChart2(data.b, "name"); 
-    let scatter = new Scatter(data["circle"]);
+    // hace un recuento de propiedades en los objetos pasados
+    function tallyProps(arrayOfObjects) { 
+      let counts = {};
+      let props = [];
+      arrayOfObjects.forEach(o => {
+        Object.keys(o).forEach(k => {
+          if (!counts[k]) {
+            counts[k] = 1;
+            props.push(k);
+          } else {
+            counts[k] ++;
+          }
+        })
+      });
+      return { counts: counts, props: props.sort()};
+    }
+
+    // pone opciones en un 'select' usando el resultado de un recuento de propiedades
+    function setOptions(selector, tally) {
+      let oldSelection = $(selector).val();
+      let target = $(selector);
+      target.empty();
+      tally.props.forEach(p => {
+        target.append($(
+          "<option value='" + p + "'>" + p + " (" + tally.counts[p] + ")</option>"
+        ));
+      });
+      if (oldSelection) {
+        target.val(oldSelection);
+      }
+    }
+
+    // genera todo como un gran CSV
+    function outputCSV(arrayOfObjects) {
+      $("body").append($("<pre id='csv'></pre>"));
+      let csv = $("#csv");
+      let tally = tallyProps(arrayOfObjects);
+
+      csv.append(tally.props.join(","));
+      csv.append("\n");
+      arrayOfObjects.forEach(o => {
+        csv.append(tally.props.map(p => {
+          return o[p] === undefined ? "???" : '\"' + o[p] + '\"';
+        }).join(","))
+        csv.append("\n");
+      });
+    }
+
+    var bar1 = new BarChart("#div1", data["chart"]);
+
+    setOptions("#div2 .p", tallyProps(data.b));
+    var bar2 = new BarChart2("#div2", 
+      () => data.b, 
+      () => $("#div2 .p").val(), 
+      () => "Datos de b.json", 
+      // esta función se llama cada vez que se pulsa en una barra; muestra detalles en div3
+      () => {        
+        setOptions("#div3 .p", tallyProps(bar2.selectedBin));
+        bar3.update();
+      }
+    );
+
+    var bar3 = new BarChart2("#div3", 
+      () => bar2.selectedBin, 
+      () => $("#div3 .p").val(),
+      () => bar2.selectedValue
+    );  
+
+    // para que se vea algo al principio: por nombre
+    setTimeout(() => {
+      console.log("actualizando vista (1/2)...")
+      $("#div2 .p").val("name"); 
+      bar2.update();
+    }, 1000)
+    // y en bar3, elige event, algo más tarde
+    setTimeout(() => {
+      console.log("actualizando vista (2/2)...")
+      setOptions("#div3 .p", tallyProps(bar2.selectedBin));
+      $("#div3 .p").val("event"); 
+      bar3.update();
+    }, 3000)
+    
+    var scatter = new Scatter("#div4", data["circle"]);
     
   </script>
   </body>
